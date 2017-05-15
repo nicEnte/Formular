@@ -1,0 +1,148 @@
+body {
+  background-color: #ffffff;
+  font-family: "Oxygen", "Noto Sans", sans-serif;
+  font-size: 22px; }
+
+/********************************* General structure of form *******************************/
+.content {
+  position: relative;
+  height: 600px;
+  width: 500px;
+  margin: auto; }
+
+.small-structure-block {
+  height: 17%;
+  position: relative; }
+
+.large-structure-block {
+  height: 66%; }
+
+/*********************** Form top -> Fundings still needed ************************/
+.fundings-still-needed {
+  background-color: #424242;
+  width: 100%;
+  height: 80%; }
+
+.fundings-still-needed__text {
+  text-align: center;
+  padding: 22px 0; }
+
+.arrow {
+  width: 25%;
+  float: right;
+  padding-right: 0px; }
+
+.arrow__triangle {
+  margin: auto;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 15px solid #424242; }
+
+/****************** Form center -> status bar, text and input ******************/
+.status-bar {
+  border-bottom: 1px solid #dfdfdf;
+  width: 100%;
+  height: 5%;
+  background-color: #fafafa; }
+
+.status-bar__bar {
+  width: 75%;
+  height: 100%;
+  background-color: #f15e33; }
+
+.main-content {
+  width: 80%;
+  height: 77%;
+  margin: 7% 10%; }
+
+.main-content__text {
+  width: 100%;
+  height: 50%; }
+
+.main-content__input {
+  width: 100%;
+  height: 50%; }
+
+.main-content__form {
+  width: 100%;
+  height: 50%;
+  margin-top: 5%; }
+
+.main-content__input-field {
+  width: 47%;
+  height: 100%; }
+
+.main-content__submit-button {
+  border: none;
+  width: 47%;
+  height: 100%;
+  background-color: #00be1c;
+  float: right; }
+
+.main-content__why-button {
+  border: none;
+  background-color: #ffffff;
+  font-style: italic;
+  padding: 0;
+  padding-right: 10px;
+  margin-top: 5%; }
+
+/*********************** Form bottom -> buttons ************************/
+.button-block {
+  position: absolute;
+  width: 100%;
+  height: 80%;
+  bottom: 0; }
+
+.button-block__button-field {
+  width: 50%;
+  height: 100%;
+  float: left; }
+
+.button-block__buttons {
+  width: 95%;
+  height: 80%;
+  background-color: #fafafa; }
+
+.button-block__buttons__right {
+  float: right; }
+
+/*********************** Additional style ************************/
+.white {
+  color: #ffffff; }
+
+.light-grey {
+  color: #868686; }
+
+.dark-grey {
+  color: #3e3e3e; }
+
+.orange {
+  color: #f15e33; }
+
+.blue {
+  color: #099dd4; }
+
+.bold {
+  font-weight: bold; }
+
+.font-size-22 {
+  font-family: "Oxygen", "Noto Sans", sans-serif;
+  font-size: 22px; }
+
+.font-size-25 {
+  font-family: "Oxygen", "Noto Sans", sans-serif;
+  font-size: 25px; }
+
+.rounded-corners {
+  border-radius: 5px; }
+
+.border {
+  border: 1px solid #dfdfdf; }
+
+.main-content__submit-button, button {
+  cursor: pointer; }
+
+/*# sourceMappingURL=style.css.map */
